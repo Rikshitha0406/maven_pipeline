@@ -1,0 +1,3 @@
+FROM openjdk:8
+ADD target/pipeline-1.0.jar pipeline-1.0.jar
+ENTRYPOINT ["Java","-jar","/pipeline-1.0.jar"]
